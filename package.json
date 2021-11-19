@@ -1,16 +1,16 @@
 {
-  "name": "postcss-px-to-viewport",
+  "name": "@jhqn/postcss-px-to-viewport",
   "description": "A CSS post-processor that converts px to viewport units (vw, vh, vmin, vmax).",
-  "version": "1.1.1",
-  "author": "Dmitry Karpunin <koderfunk@gmail.com>",
+  "version": "1.0.0",
+  "author": "jaderd",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:evrone/postcss-px-to-viewport.git"
+    "url": "git@github.com:jaderd-jh/postcss-px-to-viewport.git"
   },
-  "bugs": "https://github.com/evrone/postcss-px-to-viewport/issues",
-  "homepage": "https://github.com/evrone/postcss-px-to-viewport",
-  "main": "index.js",
+  "bugs": "https://github.com/jaderd-jh/postcss-px-to-viewport/issues",
+  "homepage": "https://github.com/jaderd-jh/postcss-px-to-viewport",
+  "main": "src/index.js",
   "keywords": [
     "css",
     "units",
@@ -25,16 +25,16 @@
     "postcss-plugin"
   ],
   "scripts": {
-    "test": "jest spec/*.spec.js"
+    "test": "jest "
   },
   "dependencies": {
-    "object-assign": ">=4.0.1"
+    "object-assign": "^4.1.1"
   },
   "devDependencies": {
-    "jest": "^25.4.0",
-    "postcss": ">=5.0.2"
+    "jest": "^27.3.1",
+    "postcss": "^8.3.11"
   },
   "peerDependencies": {
-    "postcss": ">=5.0.2"
+    "postcss": "^8.3.0"
   }
 }
